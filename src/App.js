@@ -1,35 +1,12 @@
-import'./Simpson/simpson.css';
-import Simpson from "./Simpson/simpson";
+import logo from './logo.svg';
+import './App.css';
 
 function App() {
   return (
-      <div>
-        <Simpson
-            picture={'http://upload.wikimedia.org/wikipedia/en/0/02/Homer_Simpson_2006.png'}
-            name={'Гомер Джей Сімпсон'}
-            desc={'Батько родини, гладкий, лисий, ледачий і не дуже розумний. Він часто поводиться абсурдно, егоїстично і нетактовно, втім, залишається симпатичним.'}
-        />
-        <Simpson
-            name={'Марджері «Мардж» Сімпсон '}
-            desc={'Дружина Гомера, дівоче ім\'я — Був\'є. Домогосподарка, майже весь час проводить вдома, доглядаючи за наймолодшою дитиною Меґґі, а також за Бартом і Лісою, і навіть за чоловіком. Її найвідоміша особливість — блакитне волосся, зібране у високу зачіску.'}
-            picture={'https://upload.wikimedia.org/wikipedia/ru/0/0b/Marge_Simpson.png'}
-        />
-        <Simpson
-            name={'Бартоломео «Барт» Сімпсон'}
-            desc={'10-літній син Гомера і Мардж Сімпсон, найстарша дитина в сім\'ї, втіллення образу непослуха, бешкетника і посереднього учня в школі..'}
-            picture={'https://upload.wikimedia.org/wikipedia/uk/a/aa/Bart_simpson.png'}
-        />
-        <Simpson
-            name={'Ліса Мері Сімпсон'}
-            desc={'Дочка Гомера і Мардж Сімпсон, надзвичайно розумна, не по літах розвинена, суспільно активна дівчинка. Любить джаз та грає на саксофоні, цікавиться філософією, наукою, історією. Активіст із захисту довкілля і прав тварин. Стала буддисткою і вегетаріанкою.'}
-            picture={'https://upload.wikimedia.org/wikipedia/uk/a/ae/Lisasmiling.png'}
-        />
-        <Simpson
-            name={'Маргарет «Меґґі» Сімпсон'}
-            desc={'найменша дочка Гомера в Мардж Сімпсон. Протягом усіх років серіалу не росте і завжди залишається немовлям у повзунках та підгузнику.'}
-            picture={'https://upload.wikimedia.org/wikipedia/ru/9/9d/Maggie_Simpson.png'}
-        />
-      </div>
-  )
+    <div className="App">
+
+    </div>
+  );
 }
-export default App
+
+export default App;

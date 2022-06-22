@@ -1,5 +1,6 @@
-const Character = ({character}) => {
-  const {id,name,status,species,gender,image} = character;
+import React from "react";
+const Character = (props) => {
+  const {id,name,status,species,gender,image} = props;
     return(
         <div>
             <h1>{id}</h1>
@@ -7,7 +8,7 @@ const Character = ({character}) => {
             <h3>{status}</h3>
             <h4>{species}</h4>
             <h5>{gender}</h5>
-            <img src={image} alt={""}/>
+            <img src={image} alt={name}/>
         </div>
     )
 }

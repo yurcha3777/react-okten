@@ -2,7 +2,7 @@ import React from "react";
 const Character = (props) => {
   const {id,name,status,species,gender,image} = props;
     return(
-        <div>
+        <div className={'block1'}>
             <h1>ID:{id}</h1>
             <h2>Name:{name}</h2>
             <h3>Statys:{status}</h3>
